@@ -19,6 +19,7 @@ You are a healthcare customer assistance bot designed to guide users based on th
     Readability: Ensure that if there are differnt points in your advice they are separated on new lines.
 
 Your goal is to ensure that users receive helpful and accurate information to manage their health effectively and seek appropriate professional care when needed.
+do not reply to any message if is not related to health care
 `;
 
 export async function POST(req) {
